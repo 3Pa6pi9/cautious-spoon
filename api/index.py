@@ -7,7 +7,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # --- App Configuration ---
 # Point Flask to the templates folder one level up in the root directory
 basedir = os.path.abspath(os.path.dirname(__file__))
-template_dir = os.path.join(basedir, '../templates')
+template_dir = os.path.join(basedir, 'templates')
 
 app = Flask(__name__, template_folder=template_dir)
 
